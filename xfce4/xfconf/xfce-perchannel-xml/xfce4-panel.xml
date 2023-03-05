@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=960;y=1067"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="length" type="double" value="100"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="29"/>
+        <value type="int" value="26"/>
+        <value type="int" value="14"/>
+        <value type="int" value="18"/>
+        <value type="int" value="19"/>
+      </property>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-image" type="string" value="file:///home/justalternate/Downloads/wallpaper-master/debian.png"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.14117647058823529"/>
+        <value type="double" value="0.12156862745098039"/>
+        <value type="double" value="0.19215686274509805"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=6;x=96;y=25"/>
+      <property name="size" type="uint" value="17"/>
+      <property name="length" type="double" value="100"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="position-locked" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-7" type="string" value="whiskermenu"/>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-18" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="cantata;firefox.instance11224;firefox.instance1146;firefox.instance12103;firefox.instance1229;firefox.instance1231;firefox.instance1272;firefox.instance1275;firefox.instance12756;firefox.instance1318;firefox.instance1327;firefox.instance1332;firefox.instance14093;firefox.instance1431;firefox.instance1503;firefox.instance1520;firefox.instance1621;firefox.instance1649;firefox.instance1652;firefox.instance1653;firefox.instance1655;firefox.instance1685;firefox.instance1725;firefox.instance1734;firefox.instance1744;firefox.instance2057;firefox.instance21064;firefox.instance2108;firefox.instance21787;firefox.instance2241;firefox.instance2340;firefox.instance23414;firefox.instance24106;firefox.instance2493;firefox.instance2748;firefox.instance2821;firefox.instance28869;firefox.instance30297;firefox.instance3073;firefox.instance3228;firefox.instance3231;firefox.instance3491;firefox.instance36334;firefox.instance36487;firefox.instance3767;firefox.instance3867;firefox.instance39756;firefox.instance4027;firefox.instance49330;firefox.instance50428;firefox.instance5801;firefox.instance6591;firefox.instance9168;firefox.instance9263;firefox.instance9360;firefox.instance9422;firefox.instance9732;io.bassi.Amberol;mpdevil;vlc"/>
+    </property>
+    <property name="plugin-19" type="string" value="wavelan"/>
+    <property name="plugin-26" type="string" value="tasklist">
+      <property name="sort-order" type="uint" value="0"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+      <property name="grouping" type="bool" value="true"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="true"/>
+      <property name="include-all-workspaces" type="bool" value="true"/>
+    </property>
+    <property name="plugin-29" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+</channel>
