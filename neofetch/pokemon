@@ -1,0 +1,5 @@
+#!/bin/bash
+if [ $((1 + $RANDOM % 1024)) -eq 1 ]
+then pokemon-colorscripts -r -b -s 
+else pokemon-colorscripts -r
+fi
