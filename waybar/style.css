@@ -18,15 +18,18 @@ window#waybar {
 } 
 
 #workspaces {
-    margin: 0 5px;
+    margin: 0px 5px;
 }
 
 #workspaces button {
-    padding: 0 8px;
+    padding: 0px 8px;
     color: #565f89;
-    border: 3px solid rgba(9, 85, 225, 0);
-    border-radius: 10px;
     min-width: 33px;
+}
+
+#workspaces button.active {
+  border: 1px solid #7aa2f7;
+  border-radius: 4px;
 }
 
 #workspaces button.visible {
