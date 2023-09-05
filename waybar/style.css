@@ -1,5 +1,7 @@
+@import '/home/justalternate/.cache/wal/colors-waybar.css';
+
 #waybar {
-    font-family: "SF Pro Display", Cantarell, Noto Sans, sans-serif;
+    font-family: "Source Code Pro", Cantarell, Noto Sans, sans-serif;
     font-size: 16px;
 }
 
@@ -13,8 +15,8 @@ window#waybar {
     box-shadow: none;
     text-shadow: none;
     transition-duration: 0s;
-    color: rgba(217, 216, 216, 1);
-    background: #1a1b26; 
+    color: @foreground;
+    background: @background;
 } 
 
 #workspaces {
@@ -23,42 +25,42 @@ window#waybar {
 
 #workspaces button {
     padding: 0px 8px;
-    color: #565f89;
+    color: @color1;
     min-width: 33px;
 }
 
 #workspaces button.active {
-  border: 1px solid #7aa2f7;
+  border: 1px solid @color2;
   border-radius: 4px;
 }
 
 #workspaces button.visible {
-    color: #a9b1d6;
+    color: @color2;
 }
 
 #workspaces button.focused {
-    border-top: 3px solid #7aa2f7;
-    border-bottom: 3px solid #7aa2f7;
+    border-top: 3px solid @color3;
+    border-bottom: 3px solid @color3;
 }
 
 #workspaces button.urgent {
-    background-color: #a96d1f;
+    background-color: @color3;
     color: white;
 }
 
 #workspaces button:hover {
     box-shadow: inherit;
-    border-color: #bb9af7;
-    color: #bb9af7;
+    border-color: @color2;
+    color: @color1;
 }
 
 /* Repeat style here to ensure properties are overwritten as there's no !important and button:hover above resets the colour */
 
 #workspaces button.focused {
-    color: #7aa2f7;
+    color: @color2;
 }
 #workspaces button.focused:hover {
-    color: #bb9af7;
+    color: @color3;
 }
 
 #pulseaudio {
@@ -68,7 +70,7 @@ window#waybar {
 #custom-recorder {
 	font-size: 18px;
 	margin: 2px 7px 0px 7px;
-	color:#ee2e24;
+	color: @color1;
 }
 
 #tray,
