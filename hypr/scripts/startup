@@ -2,15 +2,16 @@
 
 # Change wallpaper and use wall to change the theme
 
-file=$(ls ~/Divers/wallpaper/ | shuf -n 1)
-swaybg --output '*' --image ~/Divers/wallpaper/$file &
-wal -i ~/Divers/wallpaper/$file &
-~/.config/waybar/launch.sh &
+change_wallpaper
 
-# Unlock brightness control
-sudo chmod a+rw /sys/class/backlight/amdgpu_bl1/brightness
+# Mount disks
+
+sudo mkdir -p /run/media/justalternate/HDD
+sudo mkdir -p /run/media/justalternate/SDD
+sudo mount /dev/sda1 /run/media/justalternate/HDD &
+sudo mount /dev/sdb1 /run/media/justalternate/SDD &
 
 # Start the network manager applet
 nm-applet &
 # Start the activity-watcher
-aw-qt &
+# aw-qt &

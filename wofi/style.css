@@ -1,0 +1,47 @@
+/* import pywal colors */
+
+@import '/home/justalternate/.cache/wal/colors-waybar.css';
+
+window {
+margin: 0px;
+border: 5px solid @color2;
+border-radius: 20px;
+background-color: @background;
+}
+
+#input {
+margin: 5px;
+border: none;
+color: @foreground;
+background-color: @background;
+}
+
+#inner-box {
+margin: 15px;
+border: none;
+background-color: @background;
+}
+
+#outer-box {
+margin: 5px;
+border-radius: 20px;
+background-color: @background;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: @color1;
+} 
+
+#entry:selected {
+background-color: @foreground;
+}
+
+#entry > box {
+    margin-left: 16px;
+}
+
+#entry image {
+    padding-right: 10px;
+}
