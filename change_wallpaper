@@ -1,0 +1,5 @@
+#!/bin/bash
+file=$(ls ~/Divers/wallpaper/ | shuf -n 1)
+swaybg --output '*' --image ~/Divers/wallpaper/$file &
+wal -i ~/Divers/wallpaper/$file &
+~/.config/waybar/launch.sh &
