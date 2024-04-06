@@ -35,3 +35,8 @@ for script in "${scripts[@]}"; do
 	cp ~/scripts/"$script" ./home_files/scripts/ -R
 done
 echo "===================="
+
+echo "sddm..."
+sudo cp /usr/share/sddm/themes/poly-hogwarts ./sddm/poly-hogwarts -R
+sudo cp /etc/sddm.conf ./sddm/
+echo "==================="

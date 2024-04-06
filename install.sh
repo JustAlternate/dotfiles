@@ -29,3 +29,8 @@ echo "===================="
 echo "scripts..."
 cp ./home_files/scripts/ ~/ -R
 echo "===================="
+
+echo "sddm..."
+sudo cp ./sddm/poly-hogwarts /usr/share/sddm/themes -R
+sudo cp ./sddm/sddm.conf /etc/
+echo "==================="
