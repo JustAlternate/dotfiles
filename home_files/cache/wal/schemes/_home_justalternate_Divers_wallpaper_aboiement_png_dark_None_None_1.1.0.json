@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/justalternate/Divers/wallpaper/aboiement.png",
+    "alpha": "100",
+    "special": {
+        "background": "#191001",
+        "foreground": "#e5e2e7",
+        "cursor": "#e5e2e7"
+    },
+    "colors": {
+        "color0": "#191001",
+        "color1": "#6D6A98",
+        "color2": "#BBA8B5",
+        "color3": "#ECCFB4",
+        "color4": "#A4A8E5",
+        "color5": "#B8C6EE",
+        "color6": "#E9D5CD",
+        "color7": "#e5e2e7",
+        "color8": "#a09ea1",
+        "color9": "#6D6A98",
+        "color10": "#BBA8B5",
+        "color11": "#ECCFB4",
+        "color12": "#A4A8E5",
+        "color13": "#B8C6EE",
+        "color14": "#E9D5CD",
+        "color15": "#e5e2e7"
+    }
+}

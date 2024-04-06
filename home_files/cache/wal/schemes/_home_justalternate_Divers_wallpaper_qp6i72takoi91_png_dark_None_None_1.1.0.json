@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/justalternate/Divers/wallpaper/qp6i72takoi91.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0B1111",
+        "foreground": "#cddacf",
+        "cursor": "#cddacf"
+    },
+    "colors": {
+        "color0": "#0B1111",
+        "color1": "#56655F",
+        "color2": "#76795F",
+        "color3": "#9D955E",
+        "color4": "#708E99",
+        "color5": "#7AC4C7",
+        "color6": "#94AEA6",
+        "color7": "#cddacf",
+        "color8": "#8f9890",
+        "color9": "#56655F",
+        "color10": "#76795F",
+        "color11": "#9D955E",
+        "color12": "#708E99",
+        "color13": "#7AC4C7",
+        "color14": "#94AEA6",
+        "color15": "#cddacf"
+    }
+}

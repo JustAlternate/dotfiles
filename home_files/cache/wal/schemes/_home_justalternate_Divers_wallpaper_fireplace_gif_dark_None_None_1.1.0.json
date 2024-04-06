@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/justalternate/Divers/wallpaper/fireplace.gif",
+    "alpha": "100",
+    "special": {
+        "background": "#111618",
+        "foreground": "#ccdadf",
+        "cursor": "#ccdadf"
+    },
+    "colors": {
+        "color0": "#111618",
+        "color1": "#536871",
+        "color2": "#667075",
+        "color3": "#9B7967",
+        "color4": "#5A7786",
+        "color5": "#6E8E9C",
+        "color6": "#8BA3B0",
+        "color7": "#ccdadf",
+        "color8": "#8e989c",
+        "color9": "#536871",
+        "color10": "#667075",
+        "color11": "#9B7967",
+        "color12": "#5A7786",
+        "color13": "#6E8E9C",
+        "color14": "#8BA3B0",
+        "color15": "#ccdadf"
+    }
+}

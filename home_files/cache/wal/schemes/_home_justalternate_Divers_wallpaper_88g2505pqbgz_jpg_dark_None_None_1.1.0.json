@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/justalternate/Divers/wallpaper/88g2505pqbgz.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100c0c",
+        "foreground": "#b2b6be",
+        "cursor": "#b2b6be"
+    },
+    "colors": {
+        "color0": "#100c0c",
+        "color1": "#3E3A41",
+        "color2": "#463D42",
+        "color3": "#524A4D",
+        "color4": "#6A6365",
+        "color5": "#976643",
+        "color6": "#D49C59",
+        "color7": "#b2b6be",
+        "color8": "#7c7f85",
+        "color9": "#3E3A41",
+        "color10": "#463D42",
+        "color11": "#524A4D",
+        "color12": "#6A6365",
+        "color13": "#976643",
+        "color14": "#D49C59",
+        "color15": "#b2b6be"
+    }
+}

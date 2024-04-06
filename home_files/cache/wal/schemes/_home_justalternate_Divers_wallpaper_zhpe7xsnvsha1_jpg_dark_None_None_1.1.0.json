@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/justalternate/Divers/wallpaper/zhpe7xsnvsha1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0c11",
+        "foreground": "#c0d6dc",
+        "cursor": "#c0d6dc"
+    },
+    "colors": {
+        "color0": "#0b0c11",
+        "color1": "#465D6A",
+        "color2": "#8E826A",
+        "color3": "#3E6C81",
+        "color4": "#4B7787",
+        "color5": "#6399A9",
+        "color6": "#7AB6C4",
+        "color7": "#c0d6dc",
+        "color8": "#86959a",
+        "color9": "#465D6A",
+        "color10": "#8E826A",
+        "color11": "#3E6C81",
+        "color12": "#4B7787",
+        "color13": "#6399A9",
+        "color14": "#7AB6C4",
+        "color15": "#c0d6dc"
+    }
+}

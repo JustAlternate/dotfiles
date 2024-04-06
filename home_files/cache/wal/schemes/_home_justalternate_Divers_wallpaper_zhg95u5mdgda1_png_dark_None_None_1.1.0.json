@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/justalternate/Divers/wallpaper/zhg95u5mdgda1.png",
+    "alpha": "100",
+    "special": {
+        "background": "#010002",
+        "foreground": "#89ced6",
+        "cursor": "#89ced6"
+    },
+    "colors": {
+        "color0": "#010002",
+        "color1": "#644F6B",
+        "color2": "#B13C4A",
+        "color3": "#E99A71",
+        "color4": "#0B6792",
+        "color5": "#4B4AA5",
+        "color6": "#BE45B3",
+        "color7": "#89ced6",
+        "color8": "#5f9095",
+        "color9": "#644F6B",
+        "color10": "#B13C4A",
+        "color11": "#E99A71",
+        "color12": "#0B6792",
+        "color13": "#4B4AA5",
+        "color14": "#BE45B3",
+        "color15": "#89ced6"
+    }
+}

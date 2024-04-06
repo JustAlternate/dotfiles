@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/justalternate/Divers/wallpaper/betuklnq1yka1.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0e1816",
+        "foreground": "#cddee8",
+        "cursor": "#cddee8"
+    },
+    "colors": {
+        "color0": "#0e1816",
+        "color1": "#50758D",
+        "color2": "#6A8E9F",
+        "color3": "#569DB1",
+        "color4": "#9799A0",
+        "color5": "#B9D59D",
+        "color6": "#97B0D8",
+        "color7": "#cddee8",
+        "color8": "#8f9ba2",
+        "color9": "#50758D",
+        "color10": "#6A8E9F",
+        "color11": "#569DB1",
+        "color12": "#9799A0",
+        "color13": "#B9D59D",
+        "color14": "#97B0D8",
+        "color15": "#cddee8"
+    }
+}
