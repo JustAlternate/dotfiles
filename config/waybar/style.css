@@ -1,8 +1,22 @@
 @import '/home/justalternate/.cache/wal/colors-waybar.css';
 
+
+/* Reset all styles */
+* {
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	text-shadow: none;
+	icon-shadow: none;
+}
+
 #waybar {
-    font-family: "Source Code Pro", Cantarell, Noto Sans, sans-serif;
+    font-family: "Source Code Pro";
     font-size: 16px;
+    background: rgba(40, 40, 40, 0.8784313725);
 }
 
 #window {
@@ -20,27 +34,22 @@ window#waybar {
 } 
 
 #workspaces {
-    margin: 0px 5px;
+    margin: 10px 10px;
 }
 
 #workspaces button {
-    padding: 0px 8px;
+    padding: 0px 2px;
     color: @color1;
-    min-width: 33px;
-}
-
-#workspaces button.active {
-  border: 1px solid @color2;
-  border-radius: 4px;
+    min-width: 40px;
 }
 
 #workspaces button.visible {
     color: @color2;
 }
 
-#workspaces button.focused {
-    border-top: 3px solid @color3;
-    border-bottom: 3px solid @color3;
+#workspaces button.active {
+  border: 1px solid @color2;
+  border-radius: 3px;
 }
 
 #workspaces button.urgent {
@@ -48,11 +57,11 @@ window#waybar {
     color: white;
 }
 
-#workspaces button:hover {
-    box-shadow: inherit;
-    border-color: @color2;
-    color: @color1;
-}
+/* #workspaces button:hover { */
+/*     box-shadow: inherit; */
+/*     border-color: @color2; */
+/*     color: @color1; */
+/* } */
 
 /* Repeat style here to ensure properties are overwritten as there's no !important and button:hover above resets the colour */
 
@@ -73,6 +82,7 @@ window#waybar {
 	color: @color1;
 }
 
+
 #tray,
 #mode,
 #battery,
@@ -91,8 +101,28 @@ window#waybar {
 #custom-weather,
 #custom-mail,
 #custom-media {
-    margin: 0px 0px 0px 10px;
-    padding: 0 5px;
+}
+
+#tray,
+#mode,
+#battery,
+#temperature,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#idle_inhibitor,
+#sway-language,
+#backlight,
+#custom-storage,
+#custom-cpu_speed,
+#custom-powermenu,
+#custom-spotify,
+#custom-weather,
+#custom-mail,
+#custom-media {
+    margin: 10px 10px 10px 10px;
+    padding: 0px 5px;
     /* border-top: 3px solid rgba(217, 216, 216, 0.5); */
 }
 

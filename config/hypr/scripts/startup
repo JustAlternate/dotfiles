@@ -1,17 +1,18 @@
 #!/usr/bin/bash
 
+dunst &
+
 # Change wallpaper and use wall to change the theme
+swww-daemon &
 
-change_wallpaper
+change_wallpaper &
 
-# Mount disks
+waybar &
 
-sudo mkdir -p /run/media/justalternate/HDD
-sudo mkdir -p /run/media/justalternate/SDD
-sudo mount /dev/sda1 /run/media/justalternate/HDD &
-sudo mount /dev/sdb1 /run/media/justalternate/SDD &
+# Unlock brightness control
+sudo chmod a+rw /sys/class/backlight/amdgpu_bl1/brightness &
 
-# Start the network manager applet
-nm-applet &
-# Start the activity-watcher
-# aw-qt &
+wl-paste --type text --watch cliphist store &
+wl-paste --type image --watch cliphist store &
+
+nm-applet --indicator &

@@ -2,9 +2,9 @@
     "layer": "top",
     "position": "top",
     "height": 40,
-    "modules-left": ["hyprland/workspaces", "hyprland/mode", "hyprland/window"],
+    "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/recorder", "tray", "pulseaudio", "backlight", "temperature", "cpu", "memory", "battery", "network", "custom/powermenu"],
+    "modules-right": ["custom/recorder", "tray", "pulseaudio", "backlight", "temperature", "cpu", "memory", "battery", "network"],
     "hyprland/workspaces": {
       "format": "{icon}",
       "format-icons": {
@@ -17,12 +17,12 @@
           "7": "7 <span font='Font Awesome 5 Free 14'></span>",
           "8": "8 <span font='Font Awesome 5 Free 14'></span>",
           "9": "9 <span font='Font Awesome 5 Free 14'></span>",
-          "10": "10 <span font='Font Awesome 5 Free 14'></span>"
+          "10": "10 <span font='Font Awesome 5 Free 14'></span>"
       },
       "on-click": "activate",
-      "all-outpus": false,
+      "all-outpus": true,
       "active-only": false,
-      "show-special": false,
+      "show-special": true,
       "sort-by-number": true,
       "persistent_workspaces": {
         "*": 10,
@@ -31,8 +31,8 @@
       "on-scroll-down": "hyprctl dispatch workspace e-1",
     },
     "tray": {
-        "icon-size": 20,
-        "spacing": 8
+        "icon-size": 25,
+        "spacing": 10
     },
     "clock": {
         "format": "{:%a %d %b - %H:%M}",
