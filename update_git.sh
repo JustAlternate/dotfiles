@@ -29,7 +29,7 @@ cp ~/Divers/wallpaper ./home_files/ -R
 echo "===================="
 
 echo "scripts :"
-scripts=(batocera_sshfs ssh_justalternate.fr sshfs_justalternate.fr rollback.sh)
+scripts=(batocera_sshfs ssh_justalternate.fr ssh_justalternate.fr2 sshfs_justalternate.fr rollback.sh)
 for script in "${scripts[@]}"; do
 	echo $script
 	cp ~/scripts/"$script" ./home_files/scripts/ -R

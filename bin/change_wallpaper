@@ -2,4 +2,6 @@
 file=$(ls ~/Divers/wallpaper/ | shuf -n 1)
 swww img ~/Divers/wallpaper/$file --transition-step 30 --transition-fps 60 --transition-type center &
 wal -i ~/Divers/wallpaper/$file &
+sleep 1
 ~/.config/waybar/launch.sh &
+cp ~/.cache/wal/cava_conf ~/.config/cava/config
